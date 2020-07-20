@@ -98,13 +98,8 @@ a.pubclass:hover, a.pubclass:focus {
 
 
 /* Tables */
-table, tr, td { margin: 0; padding: 0;   
-                text-align: justify;
-}
-td { padding: 0px 0px 0px 0px; }
 tr.visited td { color: #888; }
 tr.visited a { color: #888; }
-
 tr.left, td.left { margin: 0; padding: 0;   
                 text-align: right;
 }
@@ -160,16 +155,19 @@ img {
 /* Project Entries */
 .entry {
  clear: both;
- height: 180px;
- margin-bottom: -25px;
+ height: auto;
+ margin-bottom: 0px;
  overflow: hidden; /* scroll;*/
  border-style: hidden;
  border-width: 1px;
  border-color: lightgrey;
  text-align: left;
 }
+p { 
+    text-align: justify;  
+} 
 .entry img {
- float: center;
+ float: left;
  border: 1px solid #fff;
  margin: 2px 7px 5px 0px;
  padding: 0px;
